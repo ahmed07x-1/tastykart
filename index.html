@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>TastyCart</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+
+                <a class="navbar-brand fw-bold" href="#">
+                    🍔 TastyCart
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+
+                    <ul class="navbar-nav ms-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#menu">
+                                Menu
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cart">
+                                Cart
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#order">
+                                Order
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- MAIN -->
+    <main>
+
+        <!-- HERO SECTION -->
+        <section id="home" class="hero-section d-flex align-items-center text-center">
+
+            <div class="container">
+
+                <h1 class="fw-bold text-white">
+    Delicious Food Delivered Fast 🍔
+</h1>
+
+<p class="lead text-white">
+    Taste happiness with every bite.
+    Fresh meals delivered to your doorstep.
+</p>
+
+<a href="#menu" class="btn btn-warning btn-lg">
+    Explore Menu
+</a>
+
+            </div>
+
+        </section>
+
+        <!-- MENU SECTION -->
+        <section id="menu" class="container py-5">
+
+            <h2 class="text-center mb-4">
+                Our Menu
+            </h2>
+
+            <!-- FILTER BUTTONS -->
+            <div class="text-center mb-4">
+
+                <button class="btn btn-dark filter-btn" data-category="All">
+                    All
+                </button>
+
+                <button class="btn btn-outline-dark filter-btn" data-category="Starter">
+                    Starter
+                </button>
+
+                <button class="btn btn-outline-dark filter-btn" data-category="Main">
+                    Main
+                </button>
+
+                <button class="btn btn-outline-dark filter-btn" data-category="Drinks">
+                    Drinks
+                </button>
+
+                <button class="btn btn-outline-dark filter-btn" data-category="Dessert">
+                    Dessert
+                </button>
+
+            </div>
+
+            <!-- MENU ITEMS -->
+            <div class="row g-4" id="menu-container">
+
+            </div>
+
+        </section>
+
+        <!-- CART SECTION -->
+        <section id="cart" class="container py-5">
+
+            <h2 class="text-center mb-4">
+                Cart Summary
+            </h2>
+
+            <div class="row">
+
+                <div class="col-lg-8">
+
+                    <div id="cart-items">
+
+                        <p class="text-center">
+                            No items in cart
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4">
+
+                    <<div class="card shadow p-3 sticky-cart">">
+
+                        <h4>Total Items:
+                            <span id="total-items">0</span>
+                        </h4>
+
+                        <h4>Total Price:
+                            ₹<span id="total-price">0</span>
+                        </h4>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ORDER FORM -->
+        <section id="order" class="container py-5">
+
+            <h2 class="text-center mb-4">
+                Place Order
+            </h2>
+
+            <div class="row justify-content-center">
+
+                <div class="col-md-6">
+
+                    <form id="order-form">
+
+                        <div class="mb-3">
+
+                            <label for="name" class="form-label">
+                                Name
+                            </label>
+
+                            <input type="text" class="form-control" id="name" required>
+
+                        </div>
+
+                        <div class="mb-3">
+
+                            <label for="phone" class="form-label">
+                                Mobile Number
+                            </label>
+
+                            <input type="text" class="form-control" id="phone" required>
+
+                        </div>
+
+                        <div class="mb-3">
+
+                            <label for="address" class="form-label">
+                                Delivery Address
+                            </label>
+
+                            <textarea class="form-control" id="address" rows="3"
+                                required></textarea>
+
+                        </div>
+
+                        <button type="submit" class="btn btn-success w-100">
+                            Place Order
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white text-center p-3">
+
+        <p class="mb-0">
+            © 2026 TastyCart | Food Ordering Platform
+        </p>
+
+    </footer>
+
+    <!-- AXIOS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
