@@ -15,7 +15,7 @@
       "category": "Main",
       "price": 300,
       "description": "Cheesy pizza with toppings",
-      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591",
+      "image": "images/Pizza.jpg",
       "tag": "Veg"
     },
     {
@@ -24,7 +24,7 @@
       "category": "Main",
       "price": 250,
       "description": "Hyderabadi Dum Biryani",
-      "image": "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a",
+      "image": "images/Hyderabadi-chicken-dum-biryani.png",
       "tag": "Spicy"
     },
     {
@@ -33,7 +33,7 @@
       "category": "Drinks",
       "price": 80,
       "description": "Hot cappuccino coffee",
-      "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93",
+      "image": "images/cappucino-cofee.webp",
       "tag": "Popular"
     },
     {
@@ -42,7 +42,7 @@
       "category": "Main",
       "price": 220,
       "description": "Creamy white sauce pasta",
-      "image": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9",
+      "image": "images/white-sauce-pasta.webp",
       "tag": "Veg"
     },
     {
@@ -50,8 +50,8 @@
       "name": "Ice Cream",
       "category": "Dessert",
       "price": 120,
-      "description": "Vanilla flavored ice cream",
-      "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb",
+      "description": "Strawberry ice cream with sprinkles",
+      "image": "images/icecream.webp",
       "tag": "Sweet"
     },
     {
@@ -60,7 +60,7 @@
       "category": "Starter",
       "price": 100,
       "description": "Crispy golden fries",
-      "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877",
+      "image": "images/french fries.webp",
       "tag": "Popular"
     },
     {
@@ -68,7 +68,7 @@
       "name": "Mojito",
       "category": "Drinks",
       "price": 130,
-      "description": "Refreshing mint mojito",
+      "description": "Refreshing mango mojito",
       "image": "images/MOJITO.webp",
       "tag": "Fresh"
     },
@@ -87,7 +87,7 @@
       "category": "Starter",
       "price": 180,
       "description": "Toasted sandwich with veggies and cheese",
-      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38",
+      "image": "images/grilled sandwich.webp",
       "tag": "Veg"
     },
     {
@@ -96,7 +96,7 @@
       "category": "Drinks",
       "price": 90,
       "description": "Freshly squeezed lemonade",
-      "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93",
+      "image": "images/lemonade.jpg",
       "tag": "Refreshing"
     },
     {
@@ -114,7 +114,7 @@
       "category": "Main",
       "price": 200,
       "description": "Whole wheat wrap filled with fresh veggies",
-      "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+      "image": "images/Veggie-Wrap.jpg",
       "tag": "Healthy"
     },
     {
@@ -123,16 +123,16 @@
       "category": "Drinks",
       "price": 110,
       "description": "Creamy mango smoothie with a hint of lime",
-      "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93",
+      "image": "images/MANGO SMOOTHIE.webp",
       "tag": "Fruity"
     },
     {
       "id": "15",
-      "name": "Cheesecake",
+      "name": "Japanese Cheesecake",
       "category": "Dessert",
       "price": 160,
-      "description": "Classic creamy cheesecake with a graham cracker crust",
-      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587",
+      "description": "Soft and fluffy Japanese cheesecake with a light creamy texture and delicate sweetness.",
+      "image": "images/cheese cake.jpeg",
       "tag": "Sweet"
     }
   ],
@@ -264,6 +264,212 @@
       ],
       "total": "980",
       "id": "AsdiQxn_dSo"
+    },
+    {
+      "customerName": "Mohd Younus",
+      "phone": "9704218333",
+      "address": "TTTT",
+      "items": [
+        {
+          "id": "11",
+          "name": "Lemonade",
+          "category": "Drinks",
+          "price": 90,
+          "description": "Freshly squeezed lemonade",
+          "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93",
+          "tag": "Refreshing",
+          "quantity": 15
+        },
+        {
+          "id": "10",
+          "name": "Grilled Sandwich",
+          "category": "Starter",
+          "price": 180,
+          "description": "Toasted sandwich with veggies and cheese",
+          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38",
+          "tag": "Veg",
+          "quantity": 4
+        },
+        {
+          "id": "12",
+          "name": "Tiramisu",
+          "category": "Dessert",
+          "price": 180,
+          "description": "Classic Italian coffee-flavored dessert",
+          "image": "images/tiramisu.jpg",
+          "tag": "Sweet",
+          "quantity": 1
+        },
+        {
+          "id": "15",
+          "name": "Cheesecake",
+          "category": "Dessert",
+          "price": 160,
+          "description": "Classic creamy cheesecake with a graham cracker crust",
+          "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587",
+          "tag": "Sweet",
+          "quantity": 1
+        },
+        {
+          "id": "14",
+          "name": "Mango Smoothie",
+          "category": "Drinks",
+          "price": 110,
+          "description": "Creamy mango smoothie with a hint of lime",
+          "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93",
+          "tag": "Fruity",
+          "quantity": 1
+        },
+        {
+          "id": "13",
+          "name": "Veggie Wrap",
+          "category": "Main",
+          "price": 200,
+          "description": "Whole wheat wrap filled with fresh veggies",
+          "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+          "tag": "Healthy",
+          "quantity": 1
+        }
+      ],
+      "total": "2720",
+      "id": "XQX01wti2GY"
+    },
+    {
+      "customerName": "Mohd Younus",
+      "phone": "9704218333",
+      "address": "TTTT",
+      "items": [
+        {
+          "id": "14",
+          "name": "Mango Smoothie",
+          "category": "Drinks",
+          "price": 110,
+          "description": "Creamy mango smoothie with a hint of lime",
+          "image": "images/MANGO SMOOTHIE.webp",
+          "tag": "Fruity",
+          "quantity": 4
+        },
+        {
+          "id": "15",
+          "name": "Japanese Cheesecake",
+          "category": "Dessert",
+          "price": 160,
+          "description": "Soft and fluffy Japanese cheesecake with a light creamy texture and delicate sweetness.",
+          "image": "images/cheese cake.jpeg",
+          "tag": "Sweet",
+          "quantity": 2
+        },
+        {
+          "id": "13",
+          "name": "Veggie Wrap",
+          "category": "Main",
+          "price": 200,
+          "description": "Whole wheat wrap filled with fresh veggies",
+          "image": "images/Veggie-Wrap.jpg",
+          "tag": "Healthy",
+          "quantity": 3
+        }
+      ],
+      "total": "1360",
+      "id": "kBtrbauEW8s"
+    },
+    {
+      "customerName": "Mohd Younus",
+      "phone": "9804418333",
+      "address": "xyzzy Appt, judge's colony, Hyderabad",
+      "items": [
+        {
+          "id": "5",
+          "name": "Pasta",
+          "category": "Main",
+          "price": 220,
+          "description": "Creamy white sauce pasta",
+          "image": "images/white-sauce-pasta.webp",
+          "tag": "Veg",
+          "quantity": 2
+        },
+        {
+          "id": "6",
+          "name": "Ice Cream",
+          "category": "Dessert",
+          "price": 120,
+          "description": "Strawberry ice cream with sprinkles",
+          "image": "images/icecream.webp",
+          "tag": "Sweet",
+          "quantity": 1
+        },
+        {
+          "id": "7",
+          "name": "French Fries",
+          "category": "Starter",
+          "price": 100,
+          "description": "Crispy golden fries",
+          "image": "images/french fries.webp",
+          "tag": "Popular",
+          "quantity": 3
+        },
+        {
+          "id": "13",
+          "name": "Veggie Wrap",
+          "category": "Main",
+          "price": 200,
+          "description": "Whole wheat wrap filled with fresh veggies",
+          "image": "images/Veggie-Wrap.jpg",
+          "tag": "Healthy",
+          "quantity": 4
+        }
+      ],
+      "total": "1660",
+      "id": "1865Y5k0H6A"
+    },
+    {
+      "customerName": "Mohd Younus",
+      "phone": "9804418333",
+      "address": "judges colony ,malakpet",
+      "items": [
+        {
+          "id": "3",
+          "name": "Biryani",
+          "category": "Main",
+          "price": 250,
+          "description": "Hyderabadi Dum Biryani",
+          "image": "images/Hyderabadi-chicken-dum-biryani.png",
+          "tag": "Spicy",
+          "quantity": 3
+        },
+        {
+          "id": "7",
+          "name": "French Fries",
+          "category": "Starter",
+          "price": 100,
+          "description": "Crispy golden fries",
+          "image": "images/french fries.webp",
+          "tag": "Popular",
+          "quantity": 2
+        },
+        {
+          "id": "12",
+          "name": "Tiramisu",
+          "category": "Dessert",
+          "price": 180,
+          "description": "Classic Italian coffee-flavored dessert",
+          "image": "images/tiramisu.jpg",
+          "tag": "Sweet",
+          "quantity": 1
+        },
+        {
+          "id": "6",
+          "name": "Ice Cream",
+          "category": "Dessert",
+          "price": 120,
+          "description": "Strawberry ice cream with sprinkles",
+          "image": "images/icecream.webp",
+          "tag": "Sweet",
+          "quantity": 1
+        }
+      ],
+      "total": "1250",
+      "id": "yWDUHjWjkxc"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
