@@ -11,7 +11,7 @@ let cart = [];
 async function fetchMenu() {
   try {
     const response = await axios.get(
-      "http://localhost:3000/menu"
+      "https://tastykart-api.onrender.com/menu"
     );
 
     menu = response.data;
@@ -322,7 +322,7 @@ orderForm.addEventListener(
     try {
 
       await axios.post(
-        "http://localhost:3000/orders",
+        "https://tastykart-api.onrender.com/orders",
         orderData
       );
 
