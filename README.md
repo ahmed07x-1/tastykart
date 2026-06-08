@@ -24,7 +24,9 @@ TastyKart is a responsive food ordering web application developed using HTML, CS
 - JSON Server
 
 ## 📸 Project Preview
-(Add screenshot here)
+<img width="1878" height="942" alt="image" src="https://github.com/user-attachments/assets/5e501785-f149-4c76-9c83-830ba9c4bd59" />
+
+
 
 ## 👨‍💻 Developed By
 **Mohd Younus Ahmed**
